@@ -317,13 +317,14 @@ h3{
     transition: 0.5s ease-in-out;
 }
 
-.card-wrapper a{ 
+.card a{ 
     font-size: 0;
     visibility: visible;
     font-weight: bold;
     text-transform: uppercase;
     transition: 0.5s ease-in-out; 
-    text-decoration: none;
+    text-decoration: none; 
+    color: #1E1E2A;
 }
 
 .card:hover{
@@ -336,7 +337,7 @@ h3{
     opacity: 1;
 }
 
-.card:hover > .card-wrapper a {
+.card:hover > .card-wrapper a{
     opacity: 1;
     visibility: visible;
     font-size: 14px;
